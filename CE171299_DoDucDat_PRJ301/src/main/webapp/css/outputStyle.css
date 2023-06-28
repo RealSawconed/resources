@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23-May-2023, 19:46:30
+    Author     : ASUS PC
+*/
+
+* {
+    box-sizing: border-box;
+    font-size: 2vw;        
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table, th, td {
+    padding: 1vw;
+    border: 0.3vw solid;
+    border-collapse: collapse;    
+}
+
+td {
+    font-size: 1.5vw;
+}
+
+table tr:nth-child(2)  td:nth-child(4) {
+    text-align: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    * {
+        font-size: 3vw;
+    }    
+    
+    td {
+        font-size: 2.5vw;
+    }
+}

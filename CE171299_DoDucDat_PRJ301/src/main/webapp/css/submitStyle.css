@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23-May-2023, 18:49:55
+    Author     : ASUS PC
+*/
+
+* {
+    /*box-sizing: border-box;*/
+    font-size: 2vw;    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    min-height: 15vh;
+    min-width: 35vw;
+}
+
+label.radioInput {
+    display: flex;
+    align-items: center;   
+}
+
+input[type="radio"] {
+    width: 1vw;
+    height: 1vw;
+}
+
+input.hobbies {
+    width: 2vw;
+    height: 2vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    * {
+        font-size: 3.5vw;
+    }
+
+    textarea {
+        min-height: 10vh;
+    }
+
+    input[type="radio"] {
+        width: 3vw;
+        height: 2vh;
+    }
+
+    input.hobbies {
+        width: 3vw;
+        height: 3vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    * {
+        font-size: 5vw;
+    }
+
+    textarea {
+        min-height: 5vh;
+    }
+
+    input[type="radio"] {
+        width: 2vw;
+        height: 1vh;
+    }
+
+    input.hobbies {
+        width: 5vw;
+        height: 5vw;
+    }
+}.genders {
+
+}

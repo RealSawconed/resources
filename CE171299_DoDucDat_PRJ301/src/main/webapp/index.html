@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">                    
+        <link rel="stylesheet" href="css/submitStyle.css"/>
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form action="output" method="post" onsubmit="return validation(this)">
+                Your name: <input id="name" type="text" name="name"/><br/>
+
+                Birthday: <input id="bod" type="date" name="birthday"/><br/>
+
+                <div class="radioInput">
+                    Gender:
+                    <label><input type="radio" name="genders" value="Male">Male</label>
+                    <label><input type="radio" name="genders" value="Female">Female</label><br/>
+                </div>
+                Email: <input id="email" type="email" name="email"/><br/>
+
+                Address:<br/>
+                <textarea id="address" name="address"></textarea><br/>
+
+                Hobbies:<br/>
+                <input class="hobbies" type="checkbox" id="hobbies" name="hobbies" value="Game">
+                <label for="hobbies"> Game</label><br/>
+                <input class="hobbies" type="checkbox" id="hobbies" name="hobbies" value="Sport">
+                <label for="hobbies"> Sport</label><br/>
+                <input class="hobbies" type="checkbox" id="hobbies" name="hobbies" value="Reading book">
+                <label for="hobbies"> Reading Book</label><br/>
+                <input class="hobbies" type="checkbox" id="hobbies" name="hobbies" value="Shopping">
+                <label for="hobbies"> Shopping</label><br/>                
+                <input type="submit" value="Submit">
+            </form>
+        </div>        
+    </body>
+</html>
